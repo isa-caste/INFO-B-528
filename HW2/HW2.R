@@ -43,4 +43,5 @@ results_clean <- results[!is.na(results$avg_half_life), ]
 top10 <- results_clean[results_clean$avg_half_life >= quantile(results_clean$avg_half_life, 0.9), ]
 bottom10 <- results_clean[results_clean$avg_half_life <= quantile(results_clean$avg_half_life, 0.1), ]
 # save the gene names
-write.table(results_clean$gene, "gene_list.txt", row.names=FALSE, col.names=FALSE, quote=FALSE)
+write.table(bottom10$gene, "bottom_10_gene_list.txt", row.names=FALSE, col.names=FALSE, quote=FALSE)
+write.table(top10$gene, "top_10_gene_list.txt", row.names=FALSE, col.names=FALSE, quote=FALSE)
