@@ -1,14 +1,10 @@
 
-
-
-
-
 ## Homework 2 README file
 Title: Homework 3<br>
 Class: INFO B528, Computational Analysis of High-throughput Biomedical Data <br>
 Author: Isabella Castellano <br>
-Due Date: 3/ 67  /26 <br>
-Description: HW2.R is a R script that 67 Enrichment. <br>
+Due Date: 3/ 13  /26 <br>
+Description: HW3.R is a R script that 67. <br>
 
 
 
@@ -37,4 +33,4 @@ Description: HW2.R is a R script that 67 Enrichment. <br>
 
 
 ## Generative AI Disclosure
-Generative AI tools were used for help in creating function for calclulating half lives
+Generative AI tools were used for jo
