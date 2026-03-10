@@ -31,6 +31,9 @@ operon_pred <- function(genome, filename) {
       operon_group = cumsum(!same_operon),
       Operon_ID = dense_rank(operon_group)
     ) %>%
+    group_by(Operon_ID) %>%
+    filter(n() > 1) %>%  # Keep only operons with 2+ genes
+    ungroup() %>%
     select(Operon_ID, Gene, Product)
   num_operons <- max(genome_with_operons$Operon_ID)
   # save results as csv
