@@ -1,5 +1,5 @@
 
-# Homework 2 README file
+# Homework 3 README file
 Title: Homework 3<br>
 Class: INFO B528, Computational Analysis of High-throughput Biomedical Data <br>
 Author: Isabella Castellano <br>
