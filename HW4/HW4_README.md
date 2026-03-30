@@ -21,6 +21,7 @@ Description: HW4.R is a R script that computes the frequency matrix from a count
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Output 
 - 'top30genes.txt' - txt file containing top 30 genes and thier rank
+### Files Location
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW4'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Generative AI Disclosure
