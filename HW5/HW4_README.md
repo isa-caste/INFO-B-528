@@ -11,7 +11,7 @@ Description: HW5.R is a R script that ______
 ### Language
 - R v4.5.2
 ### Packages
-- ______
+- igraph v2.2.2
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Inputs
@@ -27,4 +27,4 @@ Description: HW5.R is a R script that ______
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Generative AI Disclosure
-Generative AI tools were used for 
+Generative AI tools were used for debugging.
