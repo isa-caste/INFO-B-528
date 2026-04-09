@@ -16,14 +16,16 @@ Then the script calculates shortest path lengths and compares the distributions 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Inputs
-- 'protein-list1.txt' - txt file containing 
-- 'protein-list2.txt' - txt file containing 
-- 'Human-PPI.txt' - txt file containing 
+- 'protein-list1.txt' - txt file containing first list of proteins 
+- 'protein-list2.txt' - txt file containing second list of proteins 
+- 'Human-PPI.txt' - txt file containing human protein interaction network
 ### Files Location
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Output 
-- '______' - ______ file ______
+- "Degree_Distribution.png" - png containing plot of degree distribution of the human protein interaction network
+- "loglog_Degree_Distribution.png" - png containing plot of log degree distribution of the human protein interaction network
+- "Path_Length_Distribution.png" - png containing histogram comparing plot distributions of both protein lists
 - Wilcox Test:
     - Test Statistic: 259326
     - P-value: 0.4879
