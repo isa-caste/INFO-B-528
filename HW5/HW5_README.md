@@ -3,7 +3,8 @@ Title: Homework 5<br>
 Class: INFO B528, Computational Analysis of High-throughput Biomedical Data <br>
 Author: Isabella Castellano <br>
 Due Date: 4/10/26 <br>
-Description: HW5.R is a R script that ______
+Description: HW5.R is a R script that calculates the degree and average clustering coefficient of a given network and tests if the network is scale-free. <br>
+Then the script calculates shortest path lengths and compares the distributions between two given protein lists with a wilcox test.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -23,6 +24,10 @@ Description: HW5.R is a R script that ______
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Output 
 - '______' - ______ file ______
+- Wilcox Test:
+    - Test Statistic: 259326
+    - P-value: 0.4879
+    - This means that the distribution of lengths for paths for each protein pair in both lists are the same.
 ### Files Location
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
