@@ -23,11 +23,20 @@ Then the script calculates shortest path lengths and compares the distributions 
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Output 
-- '______' - ______ file ______
-- Wilcox Test:
+- 'clustering_coefficients.csv' - csv file containing the local clustering coefficient for every node in the network
+- 'Degree_Distribution.png' - scatter plot of the degree distribution of the network
+- 'loglog_Degree_Distribution.png' - log-log scale degree distribution plot with power law fit line, gamma value, and R-squared
+- 'Path_Length_Distribution.png' - histograms comparing shortest path length distributions for both protein lists
+### Key results
+- Wilcox Test Results:
     - Test Statistic: 259326
     - P-value: 0.4879
+    - 1176 pairs from protein list 1 and 435 pairs from protein list 2
     - This means that the distribution of lengths for paths for each protein pair in both lists are the same.
+- Average Clustering Coefficient: 0.210
+- Gamma: 1.548
+- R-squared: 0.857
+- The degree distribution fits a power law with gamma being 1.548 and R-squared value being 0.857. The high R-squared confirms a good power law fit, but the gamme value is suggests that the network has scale-free-like properties but is not strictly scale-free.
 ### Files Location
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
