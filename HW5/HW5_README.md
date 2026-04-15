@@ -16,19 +16,25 @@ Then the script calculates shortest path lengths and compares the distributions 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Inputs
-- 'protein-list1.txt' - txt file containing 
-- 'protein-list2.txt' - txt file containing 
-- 'Human-PPI.txt' - txt file containing 
+- 'protein-list1.txt' - txt file containing first list of proteins 
+- 'protein-list2.txt' - txt file containing second list of proteins 
+- 'Human-PPI.txt' - txt file containing human protein interaction network
 ### Files Location
 - 'C:/Users/icwin/OneDrive - Indiana University/INFO-B 528 High-TP/Homework/HW5'
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Output 
+<<<<<<< HEAD
 - 'clustering_coefficients.csv' - csv file containing the local clustering coefficient for every node in the network
 - 'Degree_Distribution.png' - scatter plot of the degree distribution of the network
 - 'loglog_Degree_Distribution.png' - log-log scale degree distribution plot with power law fit line, gamma value, and R-squared
 - 'Path_Length_Distribution.png' - histograms comparing shortest path length distributions for both protein lists
 ### Key results
 - Wilcox Test Results:
+=======
+- "Degree_Distribution.png" - png containing plot of degree distribution of the human protein interaction network
+- "loglog_Degree_Distribution.png" - png containing plot of log degree distribution of the human protein interaction network
+- "Path_Length_Distribution.png" - png containing histogram comparing plot distributions of both protein lists
+- Wilcox Test:
     - Test Statistic: 259326
     - P-value: 0.4879
     - 1176 pairs from protein list 1 and 435 pairs from protein list 2
